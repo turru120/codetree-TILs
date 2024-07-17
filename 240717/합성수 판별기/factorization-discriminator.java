@@ -7,7 +7,7 @@ public class Main {
         boolean sat = false;
 
         for(int i =2; i<=n-1;i++){
-            if(n%1==0){
+            if(n%i==0){
                 sat =true;
             }
         }
@@ -15,7 +15,7 @@ public class Main {
         if(sat==true){
             System.out.print("C");
         }
-    
+
         else{
             System.out.print("N");
         }
