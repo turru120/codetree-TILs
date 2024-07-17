@@ -6,13 +6,13 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int cnt =0;
+        boolean satisfied =false;
         for(int i =a; i<=b;i++){
             if(i%c==0){
-                cnt++;
+                satisfied = true;
             }
         }
-        if(cnt>=1){
+        if(satisfied == true){
             System.out.print("YES");
         }else{
             System.out.print("NO");
