@@ -19,7 +19,7 @@ public class Main {
     
         }
         for (int i =n; i>1; i--) {
-            for( int l= (2*n)+(2*i)-12;l>=1;l--){
+            for( int l= (2*i)-4;l>=1;l--){
                 System.out.print(" ");
             }
             for (int k = 3+(2*n)-(2*i); k >=1 ; k--) {
