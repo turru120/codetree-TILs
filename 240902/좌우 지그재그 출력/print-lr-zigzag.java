@@ -8,20 +8,14 @@ public class Main {
         for(int i=1;i<=n;i++){
             for(int j=1; j<=n;j++){
                 
-                if(i%2!=0){
-                    if(j==1){
+                if(j==1){
                         cnt+=n;
-                    }else{
-                        cnt++;
-                    }
-                    
                 }else{
-                    if(j==1){
-                        cnt+=n;
+                    if(i%2!=0){
+                        cnt++;
                     }else{
-                        cnt--;
+                           cnt--;
                     }
-                    
                 }
                 System.out.print(cnt+" ");
             }
