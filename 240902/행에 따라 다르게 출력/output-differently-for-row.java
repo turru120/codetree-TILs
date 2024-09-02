@@ -10,17 +10,12 @@ public class Main {
             
             for(int j=1;j<=n;j++){
                 
-                if(i%2!=0){
-                    
+                if(i%2!=0){  
                     cnt++;
-                    System.out.print(cnt+" ");
                 }else{
                     cnt+=2;
-                    System.out.print(cnt+" ");
-                
                 }
-                
-
+                System.out.print(cnt+" ");
             }
             System.out.println();
         }
