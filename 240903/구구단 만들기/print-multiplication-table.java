@@ -5,20 +5,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c;
-        if(b%2==0){
-            c=b;
-        }else{
-            c=b-1;
-        }
 
         for(int i=1;i<=9;i++){
+            for(int j=b;j>=a;j--){
 
-            for(int j=c;j>=a;j-=2){
+                if(j%2==0){
+                    System.out.print(j+" * "+i+" = "+j*i);
                 
-                System.out.print(j+" * "+i+" = "+j*i);
-                if(j>a+1){
-                    System.out.print(" / ");
+                    if(j !=a){
+                        System.out.print(" / ");
+                    }
                 }
             }
             System.out.println();
