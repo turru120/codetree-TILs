@@ -18,9 +18,6 @@ public class Main {
                         cnt =1;
                     }
                 }
-                
-                
-
             }System.out.println();
         }
     }
