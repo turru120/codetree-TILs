@@ -11,11 +11,10 @@ public class Main {
                 if(i%j ==0){
                     cnt++; 
                 }
-                if(cnt == 2){
-                    System.out.print(j+" ");
             }
+            if(cnt == 2){
+                System.out.print(i+" ");
             }
-           
         }
     }
 }
