@@ -16,7 +16,7 @@ public class Main {
         System.out.printf("%.1f%n",ave);
         if(ave>=4){
             System.out.println("Perfect");
-        }else if(ave>3){
+        }else if(ave>=3){
             System.out.println("Good");
         }else{
             System.out.println("Poor");
