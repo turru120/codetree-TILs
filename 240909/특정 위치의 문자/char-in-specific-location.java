@@ -13,16 +13,14 @@ public class Main {
         char c = sc.next().charAt(0);
         int idx = -1;
         for(int i =0;i<6;i++){
-
-
-
             if(arr[i]==c){
                 idx =i;
-                System.out.print(i);
-            }else{
-                System.out.print("None");
-                break;
             }
+        }
+        if(idx==-1){
+            System.out.print("None");
+        }else{
+            System.out.print(idx);
         }
         
     }
