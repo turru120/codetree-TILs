@@ -7,15 +7,15 @@ public class Main {
         int c= 0;
         int []countarr = new int[10]; 
 
-        for(int i=0;i<10;i++){
-            a = a/b;
+        while(true){
             countarr[(a%b)]++;
+            a = a/b;
             if(a<=1){
                 break;
             }
         }
-        for(int j=0;j<10;j++){
-            c += (countarr[j])*(countarr[j]);
+        for(int i=0;i<10;i++){
+            c += (countarr[i])*(countarr[i]);
         }
         System.out.print(c);
     }
