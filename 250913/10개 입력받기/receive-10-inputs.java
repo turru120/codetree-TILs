@@ -17,7 +17,7 @@ public class Main {
             sum+= arr[i];
             cnt++;
         }  
-        avg=sum/cnt;
+        avg=(float)sum/cnt;
         System.out.printf("%d %.1f",sum,avg);
     }
 }
